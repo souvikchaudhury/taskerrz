@@ -39,6 +39,7 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri().'/js/jquery.elastislide.js'; ?>"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
+		// hello chek1
 		$('.getstartedsubmit').click(function(){
 			usr = jQuery('.chkvalidateusr').val();
 			eml = jQuery('.chkvalidateemail').val();
@@ -60,6 +61,7 @@
 		$('.headerselectbox').change(function(){
 			var option = $('option:selected', this).attr('openlink');
 			window.location.href = option;
+			// hello chek 2
 		});
 	});
 	function suggest(inputString){
