@@ -6,7 +6,7 @@ function pricerrTheme_posts_where( $where ) {
 	
 		return $where;
 }
-	
+	//hello
 function PricerrTheme_adv_src_area_function()
 {
 	
