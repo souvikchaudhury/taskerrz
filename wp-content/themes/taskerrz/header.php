@@ -39,6 +39,7 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri().'/js/jquery.elastislide.js'; ?>"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
+		// hello test
 		$('.getstartedsubmit').click(function(){
 			usr = jQuery('.chkvalidateusr').val();
 			eml = jQuery('.chkvalidateemail').val();
