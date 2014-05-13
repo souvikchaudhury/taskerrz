@@ -1,0 +1,365 @@
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * For example, it puts together the home page when no home.php file exists.
+ *
+ * @link http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage Taskerrz
+ * @since Taskerrz 1.0
+ */
+
+get_header(); ?>
+
+<!--yellowpart start-->
+    <div class="yellowpart">
+    	<div class="container">
+        <div class="yellowpart_inner">
+                <div class="yellowpart_part1">
+                    <h1>How </h1>
+                    <h2>it works</h2>
+                    <p>Nam id diam nisi. Ut velit velit, condimentum nec eleifend in, fringilla in </p>
+                </div>
+            
+                <div class="yellowpart_part2">
+                	<img src="<?php echo get_template_directory_uri().'/images/post.png'; ?>" alt="" />
+                    <h3>Post</h3>
+                    <h5>your Job</h5>
+                    <p>It’s free</p>
+                 </div>
+                 
+                <div class="yellowpart_part3">
+                	<img src="<?php echo get_template_directory_uri().'/images/receive.png'; ?>" alt="" />
+                    <h3>Receive</h3>
+                    <h5>Proposals</h5>
+                    <p>Matter of a few times</p>
+                 </div>
+                 
+                <div class="yellowpart_part4">
+                	<img src="<?php echo get_template_directory_uri().'/images/post.png'; ?>" alt="" />
+                    <h3>Slect</h3>
+                    <h5>Freelancers</h5>
+                    <p>Begin your journey</p>
+                 </div>
+          </div>
+        </div>
+    </div>
+<!--yellowpart end-->
+
+<!--categories start-->
+    <div class="categories">
+    	<div class="container">
+        	<div class="categories_inner">
+            	<div class="categories_top">
+                	<h2>Get to know about categories</h2>
+                    <span>Nulla sit amet ipsum in lacus interdum auctor donec et est sed tortor sagittis </span>
+                </div>
+                
+                <div class="categories_middle">
+                	<form>
+                        <input type="text" placeholder="Begin to search by typing here..." class="textbox" />
+                        <select class="selectbox" >
+                        	<option>Everywhere</option>
+                        </select>
+                        <input type="Submit" value="Search" class="submitbox"/>
+               		</form> 
+                </div>
+                
+                <div class="categories_bottom slider0">
+                	
+                    <div class="slide">
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img1.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img2.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="slide">
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img3.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img4.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="slide">
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img5.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img6.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="slide">
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img7.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="categories_box">
+                    	<div class="categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img8.png'; ?>" alt="" />
+                        </div>
+                        <div class="categories_box_hover">
+                        	<ul>
+                        		<li><a href="#">Administrative & VA(2)</a></li>
+                            	<li><a href="#" class="morebtnbox">More</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+        </div>	
+    </div>
+<!--categories end-->
+
+<!--recenr_categories start-->
+    <div class="recenr_categories">
+    	<div class="container">
+        	<div class="recenr_categories_inner">
+            	<div class="recenr_categories_top">
+                	<h2>Recent Job postings</h2>
+                    <span>Nulla sit amet ipsum in lacus interdum auctor donec et est sed tortor </span>
+                </div>
+                 
+                <div class="recenr_categories_bottom slider1">
+                	
+                    <div class="slide">
+                	<div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img1.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>I will send a solo ad to a list of 44,750 Real Subscribers. ... for $6.00</p>
+                            <span>By jnelson99</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png'; ?>" alt="" /></a>
+                        </div>
+                        
+                    </div>
+                    <br/>
+                    <!--</div>
+                    
+                    <div class="slide">-->
+                    <div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img9.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>Best SEO Service Provider ... for $250.00</p>
+                            <span>By syedaffan</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png'; ?>" alt="" /></a>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                    <div class="slide">                  
+                    <div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img10.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>Panerai replica watches keeps time well ... for $80.00</p>
+                            <span>By faciay</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png';?>" alt="" /></a>
+                        </div>
+                        
+                    </div>
+                    <br/>
+                    <!--</div>
+                    
+                    <div class="slide">-->
+                    <div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img11.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>Build an elegant and creative website ... for $5.00</p>
+                            <span>By envisionsoftech</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png'; ?>" alt="" /></a>
+                        </div>
+                        
+                    </div>                    
+                    </div>
+                    
+                    <div class="slide">
+                    <div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img12.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>Train on SharePoint ... for $1,000.00</p>
+                            <span>By taskerrz_canada</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png'; ?>" alt="" /></a>
+                        </div>
+                        
+                    </div>
+                    <br/>
+                    <!--</div>
+                    
+                    <div class="slide">-->
+                    <div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img13.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>Create a sharepoint collaboration portal ... for $10,000.00</p>
+                            <span>By taskerrz_canada</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png'; ?>" alt="" /></a>
+                        </div>
+                        
+                    </div>                    
+                    </div>
+                    
+                    <div class="slide">
+                    <div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img14.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>Provide screened out candidates from a huge database of job applicants both tech ... for $10.00</p>
+                            <span>By jnelson99</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png'; ?>" alt="" /></a>
+                        </div>
+                        
+                    </div>
+                    <br/>
+                    <!--</div>
+                    
+                    <div class="slide">-->
+                    <div class="recenr_categories_box">
+                    	<div class="recenr_categories_boxInner">
+                        	<img src="<?php echo get_template_directory_uri().'/images/img15.png'; ?>" alt="" />
+                            
+                        </div>
+                        <div class="recenr_categories_content">
+                        	<p>I will send a solo ad to a list of 44,750 Real Subscribers. ... for $6.00</p>
+                            <span>By jnelson99</span>
+                            <a href="#"><img src="<?php echo get_template_directory_uri().'/images/star.png'; ?>" alt="" /></a>
+                        </div>
+                        
+                    </div>                                        
+                    </div>
+                    
+                 </div>
+                
+                            	
+            </div>
+        </div>	
+    </div>
+<!--recenr_categories end-->
+
+<!--clients start-->
+ <div class="clients">
+    	<div class="container">
+        	<div class="clients_inner">
+            	<div class="clients_inner_top">
+                	<h2>Our clients</h2>
+                    <span>Nulla sit amet ipsum in lacus interdum auctor donec </span>
+                </div>
+                <div class="clients_inner_bottom">
+                    
+                 <ul id="carousel" class="elastislide-list">
+					<li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint1.png'; ?>" alt="image01" /></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint2.png'; ?>" alt="image02" /></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint3.png'; ?>" alt="image03" /></a></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint4.png'; ?>" alt="image03" /></a></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint1.png'; ?>" alt="image01" /></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint2.png'; ?>" alt="image02" /></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint3.png'; ?>" alt="image03" /></a></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint4.png'; ?>" alt="image03" /></a></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint1.png'; ?>" alt="image01" /></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint2.png'; ?>" alt="image02" /></a></li>
+					<li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint3.png'; ?>" alt="image03" /></a></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri().'/images/clint4.png'; ?>" alt="image03" /></a></li>
+				</ul>
+                
+                
+                </div>
+                           	
+            </div>
+        </div>	
+        <div class="sdow1"></div>
+    </div>
+<!--clients end-->
+	
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
